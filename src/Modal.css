@@ -1,0 +1,61 @@
+.modal-heading {
+    /* background-color : red ; */
+    text-align: center;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    /* text-align: center; */
+    /* text-decoration: none; */
+    padding: 20px 40px;
+
+    display: block;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+    margin: 20px auto;
+}
+
+/* .submit-btn {
+    background-color: ;
+} */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensures overlay is on top */
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    max-width: 480px;
+  }
+
+  .submit-button {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    /* text-align: center; */
+    /* text-decoration: none; */
+    padding: 20px 40px;
+
+    display: block;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+    margin: 20px auto;
+    
+  }
