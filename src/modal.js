@@ -46,7 +46,7 @@ function Modal() {
     return (
         <div>
             <h1 className="modal-heading">User Details Modal</h1>
-            <button onClick={handleBtnClick} className="btn">Open form</button>
+            <button onClick={handleBtnClick} className="btn">Open Form</button>
             {/* if showForm is true detailForm will be rendered */}
             { showForm && (
                 <div className="modal">
